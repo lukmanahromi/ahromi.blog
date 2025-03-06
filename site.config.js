@@ -3,8 +3,8 @@ const CONFIG = {
   profile: {
     name: "ahromi.",
     image: "/avatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "QA Engineer",
-    bio: "Over 2 years of experience using Katalon Studio",
+    role: "QA Automation Engineer",
+    bio: "Move in Silence, Automate with Violence. 🕶️",
     email: "lukmanahromi@gmail.com",
     linkedin: "lukmanahromi",
     github: "lukmanahromi",
@@ -12,13 +12,13 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `ahromi.`,
+      name: `ahromi.blog (this website)`,
       href: "https://github.com/lukmanahromi/ahromi.blog",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "ahromi.",
+    title: "ahromi.blog",
     description: "welcome to ahromi.blog!",
     scheme: "system", // 'light' | 'dark' | 'system'
   },
