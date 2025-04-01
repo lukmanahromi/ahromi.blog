@@ -12,8 +12,16 @@ const CONFIG = {
   },
   projects: [
     {
+      name: `Resume`,
+      href: "https://drive.google.com/file/d/1B4W3f8okWOpGIDK3xesDGS2_Zf-9a6tw/view?usp=sharing",
+    },
+    {
       name: `ahromi.blog (this website)`,
       href: "https://github.com/lukmanahromi/ahromi.blog",
+    },
+    {
+      name: `Katalon Helpers`,
+      href: "https://github.com/lukmanahromi/katalon-ui-framework",
     },
   ],
   // blog setting (required)
