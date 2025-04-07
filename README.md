@@ -36,13 +36,6 @@ It’s where I write about Katalon, automation frameworks, testing strategies, a
 
 ---
 
-### 🙏 Credits
-
-This blog is built upon the amazing work of [`morethan-log`](https://github.com/morethanmin/morethan-log) by [@morethanmin](https://github.com/morethanmin).  
-Big thanks for the clean foundation that made this project 10x easier to kickstart. 💯
-
----
-
 ## 🛠️ Local Development
 
 Wanna run it locally?
@@ -52,5 +45,19 @@ git clone https://github.com/lukmanahromi/ahromi.blog.git
 cd ahromi.blog
 npm install
 npm run dev
+```
 
+---
+
+### 🙏 Credits
+
+This blog is built upon the amazing work of [`morethan-log`](https://github.com/morethanmin/morethan-log) by [@morethanmin](https://github.com/morethanmin).  
+Big thanks for the clean foundation that made this project 10x easier to kickstart. 💯
+
+---
+
+## 📬 Contact
+
+Made with ❤️ by **[@lukmanahromi](https://www.linkedin.com/in/lukmanahromi/)**  
+Follow the journey → [ahromi.vercel.app](https://ahromi.vercel.app)
 
