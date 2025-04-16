@@ -13,7 +13,7 @@ const CONFIG = {
   projects: [
     {
       name: `Resume`,
-      href: "https://drive.google.com/file/d/1B4W3f8okWOpGIDK3xesDGS2_Zf-9a6tw/view?usp=sharing",
+      href: "https://drive.google.com/file/d/16WoLsPiXQwPIH0SjvXRygkLT-pX9xuNb/view?usp=sharing",
     },
     {
       name: `ahromi.blog (this website)`,
