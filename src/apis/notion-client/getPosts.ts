@@ -17,6 +17,7 @@ export const getPosts = async () => {
 
   const response = await api.getPage(id, {
     fetchCollections: true,
+    fetchCollectionPages: true
   })
   id = idToUuid(id)
   const collectionValue = Object.values(response.collection)[0]?.value as any

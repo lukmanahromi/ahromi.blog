@@ -5,13 +5,18 @@ export default function getAllPageIds(
   response: ExtendedRecordMap,
   viewId?: string
 ) {
+  if (!response?.collection_query) {
+    console.log("❌ collection_query missing:", response)
+    return []
+  }
   const collectionQuery = response.collection_query
   const views = Object.values(collectionQuery)[0]
+  if (!views) return []
 
   let pageIds: ID[] = []
   if (viewId) {
     const vId = idToUuid(viewId)
-    pageIds = views[vId]?.blockIds
+    pageIds = views[vId]?.blockIds || []
   } else {
     const pageSet = new Set<ID>()
     // * type not exist
