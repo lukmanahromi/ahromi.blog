@@ -12,8 +12,16 @@ const CONFIG = {
   },
   projects: [
     {
+      name: `Resume`,
+      href: "https://drive.google.com/file/d/16WoLsPiXQwPIH0SjvXRygkLT-pX9xuNb/view?usp=sharing",
+    },
+    {
       name: `ahromi.blog (this website)`,
       href: "https://github.com/lukmanahromi/ahromi.blog",
+    },
+    {
+      name: `Katalon Helpers`,
+      href: "https://github.com/lukmanahromi/katalon-ui-framework",
     },
   ],
   // blog setting (required)
@@ -42,7 +50,7 @@ const CONFIG = {
     },
   },
   googleSearchConsole: {
-    enable: false,
+    enable: true,
     config: {
       siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
     },
